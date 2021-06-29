@@ -1,5 +1,5 @@
 .header{
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: rgba(84, 59, 88, 0.164) !important;
   color: rgb(41, 55, 187) !important;
@@ -13,7 +13,7 @@
 }
 
 .card-wrapper{
-  width: 270px; 
+  width: 350px; 
   height: 200px; 
   box-shadow: 0px 3px 30px #6704c3c5;
   display: flex;
@@ -37,8 +37,8 @@
 .card-header{
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 80px;
-  height: 30px;
+  max-width: 90px;
+  height: 40px;
   padding: 1px 1px !important;
   text-align: center;
 }
