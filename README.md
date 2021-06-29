@@ -1,4 +1,4 @@
-# todo List App - React
+# Todo List App - React
 
 ![Todo List App - React](https://i.ibb.co/Nn81JZn/todo-list-react.png)
 
