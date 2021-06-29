@@ -1,8 +1,10 @@
 # todo List App - React
 
-![Todo List App - React](https://i.ibb.co/fQ1vv7k/dictionary-app-react.png)
+![Todo List App - React](https://i.ibb.co/Nn81JZn/todo-list-react.png)
 
 ### [Live Site](https://alltodo.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/984aa4a2-268e-4e86-9741-35f9debf8996/deploy-status)](https://app.netlify.com/sites/alltodo/deploys)
 
 # Installation
 
