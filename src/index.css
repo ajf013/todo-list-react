@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+body {
+  margin: 0;
+  font-family: "Courgette" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.827) !important;
+  color: rgb(41, 55, 187) !important;
+  font-size: 1rem !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
