@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 const CreateTaskPopup = ({modal, toggle, save}) => {
     const [taskName, setTaskName] = useState('');
@@ -42,10 +42,8 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
                     </div>
                 
             </ModalBody>
-            <ModalFooter>
             <button class="ui inverted green button" onClick={handleSave}>Create</button>{' '}
             <button class="ui inverted red button" onClick={handleSave}>Cancel</button>{' '}
-            </ModalFooter>
       </Modal>
     );
 };

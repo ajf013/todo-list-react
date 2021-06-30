@@ -1,5 +1,5 @@
 import React, { useState , useEffect} from 'react';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 const EditTaskPopup = ({modal, toggle, updateTask, taskObj}) => {
     const [taskName, setTaskName] = useState('');
@@ -46,11 +46,10 @@ const EditTaskPopup = ({modal, toggle, updateTask, taskObj}) => {
                     </div>
                 
             </ModalBody>
-            <ModalFooter>
+            
             <button class="ui green button" onClick={handleUpdate}>Update</button>{' '}
             <button class="ui grey button" onClick={toggle}>Cancel</button>
-            </ModalFooter>
-      </Modal>
+              </Modal>
     );
 };
 
