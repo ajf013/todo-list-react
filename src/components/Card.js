@@ -48,7 +48,7 @@ const Card = ({taskObj, index, deleteTask, updateListArray}) => {
 
                 <div style={{"position": "absolute", "right" : "10px", "bottom" : "5px"}}>
                 <i class="edit icon" style={{"color" : colors[index%5].primaryColor, "cursor" : "pointer"}} onClick = {() => setModal(true)}></i>
-                <i class="trash alternate icon" style = {{"color" : colors[index%5].primaryColor, "cursor" : "pointer"}} onClick = {handleDelete}></i>
+            <i class="trash alternate icon" style = {{"color" : colors[index%5].primaryColor, "cursor" : "pointer"}} onClick = {handleDelete}></i>
                 </div>
         </div>
         <EditTask modal = {modal} toggle = {toggle} updateTask = {updateTask} taskObj = {taskObj}/>
