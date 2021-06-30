@@ -42,7 +42,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
         
             </ModalBody>
             <button class="ui inverted green button" onClick={handleSave}>Create</button>{' '}
-            <button class="ui inverted red button" onClick={handleSave}>Cancel</button>{' '}
+            <button class="ui inverted red button" onClick={toggle}>Cancel</button>
       </Modal>
     );
 };
