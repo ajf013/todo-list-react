@@ -40,13 +40,13 @@ const Card = ({taskObj, index, deleteTask, updateListArray}) => {
     }
 
     return (
-        <div class = "card-wrapper mr-7 mt-2">
+        <div class = "card-wrapper mr-7 mt-3">
             <div class = "card-top" style={{"background-color": colors[index%5].primaryColor}}></div>
             <div class = "task-holder">
                 <span class = "card-header" style={{"background-color": colors[index%5].secondaryColor, "border-radius": "5px"}}>{taskObj.Name}</span>
                 <p className = "mt-3">{taskObj.Description}</p>
 
-                <div style={{"position": "absolute", "right" : "20px", "bottom" : "20px"}}>
+                <div style={{"position": "absolute", "right" : "10px", "bottom" : "5px"}}>
                 <i class="edit icon" style={{"color" : colors[index%5].primaryColor, "cursor" : "pointer"}} onClick = {() => setModal(true)}></i>
                 <i class="trash alternate icon" style = {{"color" : colors[index%5].primaryColor, "cursor" : "pointer"}} onClick = {handleDelete}></i>
                 </div>
